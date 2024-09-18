@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.roadmap-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.path {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+}
+
+.path:hover {
+    background-color: #297fb8;
+}
+
+#details-container {
+    display: none;
+}
+
+#details-container p {
+    margin-top: 10px;
+}
+
+h1, h2, p {
+    margin: 0;
+}

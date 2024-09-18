@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQ Test Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-b from-pink-500 via-yello-400 to-black h-screen flex justify-center items-center">
+
+    <div class="bg-white bg-opacity-30 p-8 rounded-lg shadow-md w-96">
+        <h1 class="text-2xl font-semibold mb-4 text-center text-pink-900">IQ Test Registration</h1>
+        
+        <form action="" id="logForm">
+            <div class="mb-4">
+                <label for="emails" class="block text-sm font-medium text-black"
+                  >Email Address</label
+                >
+                <input
+                  type="email"
+                  id="emails"
+                  name="emails"
+                  class="w-full bg-white bg-opacity-10 py-2 px-3 border rounded-md focus:outline-none focus:ring focus:ring-pink-900"
+                  required
+                />
+              </div>
+    
+              <div class ="mb-6">
+                <label for="password" class="block text-sm font-medium text-black">Password</label>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  class="w-full bg-white bg-opacity-10 py-2 px-3 border rounded-md focus:outline-none focus:ring focus:ring-pink-900"
+                  required />
+              </div>
+            <div class="mb-6">
+                <button type="submit" class="w-full  bg-black text-white font-semibold py-2 rounded-md hover:from-pink-700">Login</button>
+            </div>
+        </form>
+
+        <div
+        id="successAlert"
+        class="hidden bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded-md mb-4"
+      >
+        <strong class="font-bold">Success!</strong>
+        <span class="block sm:inline"> Login successfully.</span>
+      </div>
+
+        <div class="text-center text-sm">
+            <p>Don't have an account? <a href="/Html/registration.html" class="text-pink-900 font-bold hover:underline">Register</a></p>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="/JS/login.js"></script>
+
+</body>
+</html>

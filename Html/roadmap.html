@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Career Roadmap</title>
+    <link rel="stylesheet" href="/css/roadmap.css">
+</head>
+<body>
+
+    <div class="roadmap-container">
+        <h1>Student Career Roadmap</h1>
+
+        <div class="path" id="science-path" onclick="showDetails('science')">
+            <h2>Science Stream</h2>
+            <p>Explore careers in science, technology, engineering, and mathematics (STEM).</p>
+        </div>
+
+        <div class="path" id="commerce-path" onclick="showDetails('commerce')">
+            <h2>Commerce Stream</h2>
+            <p>Discover opportunities in finance, business, and economics.</p>
+        </div>
+
+        <div class="path" id="arts-path" onclick="showDetails('arts')">
+            <h2>Arts Stream</h2>
+            <p>Engage in fields like humanities, literature, and social sciences.</p>
+        </div>
+
+        <!-- Add more paths as needed -->
+
+        <div id="details-container">
+            <!-- Details for each path will be displayed here -->
+        </div>
+    </div>
+
+    <script src="/JS/roadmap.js"></script>
+</body>
+</html>

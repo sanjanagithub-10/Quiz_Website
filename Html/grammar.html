@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+  <title>Quiz App</title>
+  <link rel="stylesheet" type="text/css" href="/css/grammar.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Quiz App</h1>
+    <div id="question-container">
+      <p id="question-text"></p>
+      <div id="answer-buttons"></div>
+    </div>
+    <div id="controls-container">
+      <button id="start-button">Start Quiz</button>
+      <div id="timer-container">
+        <span id="timer-text">Time Left: <span id="timer">0</span></span>
+        <button id="main-page-button" onclick="navigateToMainPage()" style="display:none;">Go To Main Page</button>
+        <div>
+        <!-- <button class="btn">Go To Main Page</button> -->
+    </div>
+      </div>
+    </div>
+  </div>
+  <script src="/JS/grammar.js"></script>
+</body>
+</html>

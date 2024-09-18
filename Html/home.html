@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+	<title>IQ TEST</title>
+	<style type="text/css">
+		body{
+
+			margin: 0;
+	        padding: 0;
+	        background-repeat: no-repeat;
+	        background-attachment: fixed;
+	        background-size: cover;
+		}
+		#parent{
+			background-color: rgba(255, 204, 255, 0.7);
+			width:30%;
+			margin: 8% auto;
+			height:30%;
+			color:rgb(153, 0, 153);
+			text-align: center;
+			padding-bottom: 4%;
+		}
+		#parent div h1{
+			margin: 1px 1px 12% 1px;
+		}
+
+		#parent .person{
+			padding: 15px 4px;
+			font-size: 25px;
+			background-color:rgba(255, 204, 255, 0.3);
+			color:rgb(153, 0, 153);
+			margin-bottom: 20px;
+			text-decoration: none;
+			display:block;
+			cursor:pointer;
+			box-shadow: 0px 6px 9px 0px black; 
+
+		}
+		#parent .person:hover{
+			background-color:rgb(255, 153, 255);
+			
+		}
+		#parent .person{
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+		#exit{
+			text-decoration: none;
+		}
+		
+@media only screen and (max-width: 1200px){
+	body{
+	
+	background-image: url("images/creative-IQ.jpg");
+	background-size: 100% 100%;
+	width:100%;
+	margin:auto;
+	height:100%;
+}
+
+#parent{
+	margin-top: 30%;
+	padding: 6%;
+	width:96%;
+	box-sizing: border-box;
+}
+
+#parent .person{
+	padding: 40px 30px;
+	font-size: 35px;
+    }
+}
+	</style>
+</head>
+<body style="background-image: url('/img/bg.jpg');" class="bg-cover bg-center h-screen bg-no-repeat">
+<div id="parent">
+	<div><h1>IQ TEST</h1></div>
+	<div ><a class="person" id="" href="registration.html">Register</a></div>
+	<div ><a class="person" id="" href="login.html">Login</a></div>
+	<div ><a class="person" id="" href="help.html">Help</a></div>
+	<div><a class="person" id="" href="abouth.html">About</a></div>
+	<div><a class="person" id="" href="roadmap.html">Future Road-Map</a></div>
+	<a href="#" id="exit"><div class="person" id="">Logout</div></a>
+</div>
+</body>
+<script type="text/javascript">
+	var c = document.getElementById("exit");
+	//window.close(c);
+	c.onclick = function () {
+		document.getElementById("parent").style.display = "none";
+	}
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+   
